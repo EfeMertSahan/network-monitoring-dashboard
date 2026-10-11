@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+
+sqlalchemy==2.0.43
+asyncpg
+alembic==1.19.1
+
+pydantic==2.12.4
+pydantic-settings==2.11.0
+
+icmplib==3.0.4
+apscheduler==3.11.3
+
+paramiko==5.0.0
+cryptography==50.0.1

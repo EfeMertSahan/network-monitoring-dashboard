@@ -1,0 +1,10 @@
+services:
+  ssh-test-device:
+    build:
+      context: ./simulator/fake-device-agent
+    container_name: network-monitor-ssh-device
+    ports:
+      - "2222:22"
+    environment:
+      TZ: Europe/Istanbul
+    restart: unless-stopped
